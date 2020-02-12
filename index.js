@@ -1,16 +1,15 @@
 CLASSES = {
   0: 'Alma Mater',
-  1: 'Butler Lirary',
-  2: 'Le Marteleur',
-  3: "Scholars' Lion",
-  4: 'Sundial',
+  1: 'Le Marteleur',
+  2: "Scholars' Lion",
+  3: 'Sundial',
 };
 
 const MODEL_PATH =
     'model.json';
 
 const IMAGE_SIZE = 192;
-const TOPK_PREDICTIONS = 5;
+const TOPK_PREDICTIONS = 4;
 
 let my_model;
 const demo = async () => {
